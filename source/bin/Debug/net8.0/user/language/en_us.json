@@ -1,0 +1,101 @@
+{
+    "titles": {
+      "version_info": "Version: {0} {1} Official Version: {2}",
+      "copyright": "(c) NORTHERN Tech. All rights reserved",
+      "shortcuts": "Press Shift + L to open browser         Press Shift + N to launch console"
+    },
+    "config": {
+        "loading": "[Config Loading] Loading config file: {0}",
+        "load_success": "[Config Loading] Configuration loaded successfully",
+        "resource_path": "   - Resource Directory: {0}",
+        "internal_version": "   - Internal Version: {0}",
+        "official_version": "   - Official Version: {0}",
+        "language_file": "   - Language File: {0}",
+        "not_found": "[Config Loading] Config file not found, default configuration created",
+        "parse_error": "[Config Loading] JSON parsing error: {0}",
+        "use_default": "[Config Loading] Started with default configuration",
+        "security_error": "[Config Loading] Security restriction: {0}",
+        "generic_error": "[Config Loading] Unknown error: {0}",
+        "default_created": "[Config Loading] Default config file created: {0}",
+        "create_failed": "[Config Loading] Failed to create config file: {0}"
+    },
+    "server": {
+      "start": "Server Address: http://{0}:{1}",
+      "sending_file": "[Server] Sending file: {0} Size: {1} bytes",
+      "file_read_error": "[Server] File read error: {0}",
+      "server_mode_title": "===================== Server Mode =====================",
+      "path_security_error": "[Resource Manager: Path Access] Attempted to access invalid path!",
+      "os_support_title": "\nOS Support:"
+    },
+    "commands": {
+      "prompt": "<{0}@{1} > ",
+      "command_mode_title": "===================== Command Mode [Shift + N to Exit] =====================",
+      "unknown_command": "[Command Line] Unknown command: {0}",
+      "exit_command_mode": "[System: Notification] Exited command mode",
+      "version_info": {
+        "versions": {
+          "version": "Version:\t\t{0}",
+          "test_phase": "Test Phase:\t{0}",
+          "official_version": "Official Version:\t{0}"
+        },
+        "os_support": {
+          "title": "OS Support:",
+          "item": " - {0}: Supported\t({1})"
+        },
+        "compilation": "Compilation Environment:\t{0}"
+      },
+      "invalid_argument": "Invalid argument. Use -v to show version info"
+    },
+    "browser": {
+      "open_success": "[OpenBrowser Class] Browser opened: {0}",
+      "open_error": "[OpenBrowser Class: Error] Failed to open browser: {0}"
+    },
+    "errors": {
+        "contact_support": "Please contact support and provide this error code",
+        "file_not_found": "File not found: {0}",
+        "unauthorized_access": "Access denied: {0} - {1}",
+        "generic_error": "Server error: {0}",
+        "path_traversal": "Detected illegal path access: {0}",
+        "resource_access_denied": "No access to resource directory: {0}",
+        "invalid_mime_type": "Unsupported MIME type: {0}",
+        "server_start_failed": "Server failed to start: {0}",
+        "command_execution_failed": "Command execution failed: {0}",
+        "500": "Internal Server Error: {0}",
+        "404": "Requested resource not found",
+        "403": "Forbidden",
+        "423": "File is locked"
+    },
+    "pathmapping": {
+        "raw_path": "[Path Mapping] Raw path: {0}",
+        "invalid_path": "[Path Mapping: Invalid Characters] Path contains illegal characters",
+        "resource_root": "[Path Mapping] Resource root directory: {0}",
+        "sanitized_path": "[Path Mapping] Sanitized path: {0}",
+        "access_denied": "[Path Mapping: Permission Denied] Path access out of scope"
+    },
+    "fileio": {
+        "transfer_complete": "[Server] Completed {0} transfer ({1} bytes, took {2}ms)",
+        "not_found": "[File IO] File not found: {0}",
+        "locked": "[File IO] File is locked: {0}",
+        "unauthorized": "[File IO] Access denied: {0}",
+        "general_error": "[File IO] Operation failed: {0}",
+        "is_directory": "[File] Path points to a directory"
+    },
+    "localization": {
+      "file_not_found": "[Localization] Language file not found: {0}",
+      "load_success": "[Localization] Loaded language file: {0}",
+      "json_parse_error": "[Localization] JSON parse error (line {1}): {0}",
+      "access_denied": "[Localization] File access denied: {0} ({1})",
+      "io_error": "[Localization] File I/O error ({1}): {0}",
+      "load_failed": "[Localization] Load failed ({0}): {1}"
+    },
+    "language": {
+      "no_lang_dir": "[File: Language] Language directory not found",
+      "no_files": "[File: Language] No language files found",
+      "available": "[Language] Available languages:",
+      "current": "(Current)",
+      "not_found": "[File: Language] Language file not found: {0}",
+      "switched": "[MWServer: Language] Language switched to: {0}",
+      "list_error": "[File: Language] Failed to list language files: {0}",
+      "change_error": "[MWServer: Language] Language switch failed: {0}"
+    }
+  }

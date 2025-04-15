@@ -1,0 +1,101 @@
+{
+    "titles": {
+      "version_info": "バージョン: {0} {1} 正式ビルド番号: {2}",
+      "copyright": "(c) NORTHERN Tech. 全著作権所有",
+      "shortcuts": "Shift + L でブラウザを開く         Shift + N でコンソールを起動"
+    },
+    "config": {
+        "loading": "[ 設定読み込み ] 設定ファイルをロード中: {0}",
+        "load_success": "[ 設定読み込み ] 設定の読み込みに成功しました",
+        "resource_path": "   - リソースディレクトリ: {0}",
+        "internal_version": "   - 内部バージョン: {0}",
+        "official_version": "   - 正式バージョン: {0}",
+        "language_file": "   - 言語ファイル: {0}",
+        "not_found": "[ 設定読み込み ] 設定ファイルが存在しません。デフォルト設定を作成しました",
+        "parse_error": "[ 設定読み込み ] JSON解析エラー: {0}",
+        "use_default": "[ 設定読み込み ] デフォルト設定で起動しました",
+        "security_error": "[ 設定読み込み ] セキュリティ制限: {0}",
+        "generic_error": "[ 設定読み込み ] 不明なエラー: {0}",
+        "default_created": "[ 設定読み込み ] デフォルト設定ファイルを作成しました: {0}",
+        "create_failed": "[ 設定読み込み ] 設定ファイルの作成に失敗しました: {0}"
+    },
+    "server": {
+      "start": "サーバーアドレス: http://{0}:{1}",
+      "sending_file": "[ サーバー ] ファイル送信中: {0} サイズ: {1}バイト",
+      "file_read_error": "[ サーバー ] ファイル読み込みエラー: {0}",
+      "server_mode_title": "===================== サーバーモード =====================",
+      "path_security_error": "[ リソースマネージャー: パスアクセス ] 不正なパスへのアクセスを検出しました！",
+      "os_support_title": "\nOSサポート:"
+    },
+    "commands": {
+      "prompt": "<{0}@{1} > ",
+      "command_mode_title": "===================== コマンドモード [ Shift + N で終了 ] =====================",
+      "unknown_command": "[ コマンドライン ] 不明なコマンド: {0}",
+      "exit_command_mode": "[ システム: 通知 ] コマンドモードを終了しました",
+      "version_info": {
+        "versions": {
+          "version": "バージョン:\t\t{0}",
+          "test_phase": "テスト段階:\t{0}",
+          "official_version": "正式ビルド番号:\t{0}"
+        },
+        "os_support": {
+          "title": "OSサポート:",
+          "item": " - {0}: 対応\t({1})"
+        },
+        "compilation": "ビルド環境:\t{0}"
+      },
+      "invalid_argument": "無効な引数です。-v でバージョン情報を表示"
+    },
+    "browser": {
+      "open_success": "[ OpenBrowserクラス ] ブラウザを開きました: {0}",
+      "open_error": "[ OpenBrowserクラス: エラー ] ブラウザの起動に失敗しました: {0}"
+    },
+    "errors": {
+        "contact_support": "サポートチームに連絡し、このエラーコードを提供してください",
+        "file_not_found": "ファイルが見つかりません: {0}",
+        "unauthorized_access": "アクセスが拒否されました: {0} - {1}",
+        "generic_error": "サーバーエラー: {0}",
+        "path_traversal": "不正なパスアクセスを検出しました: {0}",
+        "resource_access_denied": "リソースディレクトリへのアクセス権限がありません: {0}",
+        "invalid_mime_type": "サポートされていないMIMEタイプ: {0}",
+        "server_start_failed": "サーバーの起動に失敗しました: {0}",
+        "command_execution_failed": "コマンドの実行に失敗しました: {0}",
+        "500": "内部サーバーエラー: {0}",
+        "404": "リクエストされたリソースは存在しません",
+        "403": "アクセスが禁止されています",
+        "423": "ファイルがロックされています"
+    },
+    "pathmapping": {
+        "raw_path": "[ パスマッピング ] 元のパス: {0}",
+        "invalid_path": "[ パスマッピング: 不正文字 ] パスに不正な文字が含まれています",
+        "resource_root": "[ パスマッピング ] リソースルートディレクトリ: {0}",
+        "sanitized_path": "[ パスマッピング ] 正規化されたパス: {0}",
+        "access_denied": "[ パスマッピング: 権限 ] パスアクセス権限がありません"
+    },
+    "fileio": {
+        "transfer_complete": "[ サーバー ] {0} の転送が完了しました ({1} バイト, 処理時間 {2}ms)",
+        "not_found": "[ ファイルIO ] ファイルが見つかりません: {0}",
+        "locked": "[ ファイルIO ] ファイルがロックされています: {0}",
+        "unauthorized": "[ ファイルIO ] アクセス権限がありません: {0}",
+        "general_error": "[ ファイルIO ] 操作に失敗しました: {0}",
+        "is_directory": "[ ファイル ] パスはディレクトリを指しています"
+    },
+    "localization": {
+      "file_not_found": "[ ローカライゼーション ] 言語ファイルが見つかりません: {0}",
+      "load_success": "[ ローカライゼーション ] 言語ファイルを読み込みました: {0}",
+      "json_parse_error": "[ ローカライゼーション ] JSON解析エラー（行{1}）: {0}",
+      "access_denied": "[ ローカライゼーション ] ファイルへのアクセス権限がありません: {0} ({1})",
+      "io_error": "[ ローカライゼーション ] 入出力エラー({1}): {0}",
+      "load_failed": "[ ローカライゼーション ] 読み込みに失敗しました({0}): {1}"
+    },
+    "language": {
+      "no_lang_dir": "[ ファイル: 言語 ] 言語ディレクトリが存在しません",
+      "no_files": "[ ファイル: 言語 ] 言語ファイルが見つかりません",
+      "available": "[ 言語 ] 利用可能な言語:",
+      "current": "(現在)",
+      "not_found": "[ ファイル: 言語 ] 言語ファイルが見つかりません: {0}",
+      "switched": "[ MWServer: 言語 ] 言語を切り替えました: {0}",
+      "list_error": "[ ファイル: 言語 ] 言語ファイルの一覧取得に失敗しました: {0}",
+      "change_error": "[ MWServer: 言語 ] 言語切り替えに失敗しました: {0}"
+    }
+}

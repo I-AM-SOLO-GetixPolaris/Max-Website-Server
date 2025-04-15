@@ -1,0 +1,101 @@
+{
+    "titles": {
+      "version_info": "Versión: {0} {1} Versión oficial: {2}",
+      "copyright": "(c) NORTHERN Tech. Todos los derechos reservados",
+      "shortcuts": "Shift + L: Abrir navegador         Shift + N: Iniciar consola"
+    },
+    "config": {
+        "loading": "[ Carga de configuración ] Cargando archivo de configuración: {0}",
+        "load_success": "[ Carga de configuración ] Configuración cargada correctamente",
+        "resource_path": "   - Directorio de recursos: {0}",
+        "internal_version": "   - Versión interna: {0}",
+        "official_version": "   - Versión oficial: {0}",
+        "language_file": "   - Archivo de idioma: {0}",
+        "not_found": "[ Carga de configuración ] Archivo de configuración no encontrado, se ha creado la configuración predeterminada",
+        "parse_error": "[ Carga de configuración ] Error de análisis JSON: {0}",
+        "use_default": "[ Carga de configuración ] Iniciado con configuración predeterminada",
+        "security_error": "[ Carga de configuración ] Restricción de seguridad: {0}",
+        "generic_error": "[ Carga de configuración ] Error desconocido: {0}",
+        "default_created": "[ Carga de configuración ] Archivo de configuración predeterminado creado: {0}",
+        "create_failed": "[ Carga de configuración ] Error al crear el archivo de configuración: {0}"
+    },
+    "server": {
+      "start": "Dirección del servidor: http://{0}:{1}",
+      "sending_file": "[ Servidor ] Enviando archivo: {0} Tamaño: {1} bytes",
+      "file_read_error": "[ Servidor ] Error de lectura del archivo: {0}",
+      "server_mode_title": "===================== Modo servidor =====================",
+      "path_security_error": "[ Administrador de recursos: Acceso ] ¡Intento de acceso a una ruta no permitida!",
+      "os_support_title": "\nSistemas operativos compatibles:"
+    },
+    "commands": {
+      "prompt": "<{0}@{1} > ",
+      "command_mode_title": "===================== Modo de comandos [ Shift + N para salir ] =====================",
+      "unknown_command": "[ Línea de comandos ] Comando desconocido: {0}",
+      "exit_command_mode": "[ Sistema: Notificación ] Modo de comandos finalizado",
+      "version_info": {
+        "versions": {
+          "version": "Versión:\t\t{0}",
+          "test_phase": "Fase de prueba:\t{0}",
+          "official_version": "Versión oficial:\t{0}"
+        },
+        "os_support": {
+          "title": "Sistemas compatibles:",
+          "item": " - {0}: Compatible\t({1})"
+        },
+        "compilation": "Entorno de compilación:\t{0}"
+      },
+      "invalid_argument": "Argumento inválido. Use -v para mostrar la información de versión"
+    },
+    "browser": {
+      "open_success": "[ Clase OpenBrowser ] Navegador abierto: {0}",
+      "open_error": "[ Clase OpenBrowser: Error ] Error al abrir el navegador: {0}"
+    },
+    "errors": {
+        "contact_support": "Contacte con soporte técnico y proporcione este código de error",
+        "file_not_found": "Archivo no encontrado: {0}",
+        "unauthorized_access": "Acceso denegado: {0} - {1}",
+        "generic_error": "Error del servidor: {0}",
+        "path_traversal": "Acceso ilegal a la ruta detectado: {0}",
+        "resource_access_denied": "Sin permisos para acceder al directorio de recursos: {0}",
+        "invalid_mime_type": "Tipo MIME no soportado: {0}",
+        "server_start_failed": "Fallo al iniciar el servidor: {0}",
+        "command_execution_failed": "Fallo en la ejecución del comando: {0}",
+        "500": "Error interno del servidor: {0}",
+        "404": "Recurso solicitado no encontrado",
+        "403": "Acceso prohibido",
+        "423": "Archivo bloqueado"
+    },
+    "pathmapping": {
+        "raw_path": "[ Mapeo de rutas ] Ruta original: {0}",
+        "invalid_path": "[ Mapeo de rutas: Caracteres no válidos ] La ruta contiene caracteres ilegales",
+        "resource_root": "[ Mapeo de rutas ] Directorio raíz de recursos: {0}",
+        "sanitized_path": "[ Mapeo de rutas ] Ruta normalizada: {0}",
+        "access_denied": "[ Mapeo de rutas: Permiso denegado ] Excedidos los permisos de acceso"
+    },
+    "fileio": {
+        "transfer_complete": "[ Servidor ] Transferencia de {0} completada ({1} bytes, tiempo {2}ms)",
+        "not_found": "[ E/S de archivos ] Archivo no encontrado: {0}",
+        "locked": "[ E/S de archivos ] Archivo bloqueado: {0}",
+        "unauthorized": "[ E/S de archivos ] Permiso denegado: {0}",
+        "general_error": "[ E/S de archivos ] Operación fallida: {0}",
+        "is_directory": "[ Archivo ] La ruta apunta a un directorio"
+    },
+    "localization": {
+      "file_not_found": "[ Localización ] Archivo de idioma no encontrado: {0}",
+      "load_success": "[ Localización ] Archivo de idioma cargado: {0}",
+      "json_parse_error": "[ Localización ] Error de análisis JSON (línea {1}): {0}",
+      "access_denied": "[ Localización ] Acceso al archivo denegado: {0} ({1})",
+      "io_error": "[ Localización ] Error de E/S ({1}): {0}",
+      "load_failed": "[ Localización ] Fallo de carga ({0}): {1}"
+    },
+    "language": {
+      "no_lang_dir": "[ Archivo: Idioma ] Directorio de idiomas no existe",
+      "no_files": "[ Archivo: Idioma ] No se encontraron archivos de idioma",
+      "available": "[ Idioma ] Idiomas disponibles:",
+      "current": "(Actual)",
+      "not_found": "[ Archivo: Idioma ] Archivo de idioma no encontrado: {0}",
+      "switched": "[ MWServer: Idioma ] Idioma cambiado a: {0}",
+      "list_error": "[ Archivo: Idioma ] Fallo al listar archivos de idioma: {0}",
+      "change_error": "[ MWServer: Idioma ] Fallo al cambiar el idioma: {0}"
+    }
+}
