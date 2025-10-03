@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-26.01.0005-blue" alt="版本">
+  <img src="https://img.shields.io/badge/版本-26.01-blue" alt="版本">
   <img src="https://img.shields.io/badge/.NET-8.0-purple" alt=".NET 8.0">
-  <img src="https://img.shields.io/badge/平台-Windows%20%7C%20Linux%20%7C%20macOS-green" alt="平台">
+  <img src="https://img.shields.io/badge/平台-Windows%20%7C%20Linux" alt="平台">
   <img src="https://img.shields.io/badge/许可证-MIT-orange" alt="许可证">
 </p>
 
